@@ -1,4 +1,4 @@
-package palindrome-number
+package easy
 
 func isPalindrome(x int) bool {
     if x < 0 || (x % 10 == 0 && x != 0) {
