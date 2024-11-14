@@ -1,5 +1,7 @@
 package medium
 
+import "sort"
+
 func groupAnagrams(strs []string) [][]string {
     annMap := make(map[string][]string)
     signature := ""
